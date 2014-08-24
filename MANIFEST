@@ -1,0 +1,8 @@
+MANIFEST
+t/00compile.t
+t/wait.t
+Changes
+README
+INSTALL
+lib/Test/Wait.pm
+Makefile.PL
