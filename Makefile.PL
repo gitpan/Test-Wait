@@ -15,6 +15,8 @@ WriteMakefile(
         'Exporter'      => 0
     },
     'TEST_REQUIRES'     => {
-        'Test::More'        => 0
+        'Test::More'            => 0,
+        'Test::Pod'             => '1.14',
+        'Test::Pod::Coverage'   => '1.04'
     }
 );

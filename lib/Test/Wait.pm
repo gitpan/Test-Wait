@@ -78,11 +78,15 @@ sub wait_x {
 
 =head1 SEE ALSO
 
-Test::More, Test::Builder, Test::Simple, Selenium::Remote::Driver
+Test::More, Test::Builder, Test::Simple, Selenium::Remote::Driver, Test::Harness
 
 =head1 AUTHORS
 
 Ben Hare <ben@benhare.com>
+
+=head1 CREDITS
+
+Inspired by code written by Chris Hutchinson <chris@hutchinsonsoftware.com>.
 
 =head1 COPYRIGHT
 
