@@ -7,3 +7,6 @@ REVISION HISTORY
         - update pod
         - add pod.t and pod-coverage.t
         - update README
+
+0.03    2014-08-26
+        - increment module version - forgot to do so last release

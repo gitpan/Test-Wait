@@ -10,7 +10,7 @@ require Exporter;
 @ISA = qw( Exporter );
 @EXPORT = qw( wait_stdin wait_x );
 
-our $VERSION = '0.01';
+our $VERSION = '0.03';
 
 use constant DEFAULT_WAIT_SECONDS                                                           => 10;
 
