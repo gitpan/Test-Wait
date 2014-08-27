@@ -14,9 +14,13 @@ WriteMakefile(
     'PREREQ_PM'         => {
         'Exporter'      => 0
     },
+    'BUILD_REQUIRES'    => {
+        'ExtUtils::MakeMaker'       => 6.76
+    },
     'TEST_REQUIRES'     => {
         'Test::More'            => 0,
-        'Test::Pod'             => '1.14',
-        'Test::Pod::Coverage'   => '1.04'
-    }
+        'Test::Pod'             => 1.14,
+        'Test::Pod::Coverage'   => 1.04
+    },
+    'LICENSE'           => 'perl'
 );

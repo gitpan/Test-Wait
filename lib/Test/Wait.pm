@@ -10,7 +10,7 @@ require Exporter;
 @ISA = qw( Exporter );
 @EXPORT = qw( wait_stdin wait_x );
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use constant DEFAULT_WAIT_SECONDS                                                           => 10;
 
@@ -33,7 +33,7 @@ use the test-created data to run manual tests against the application in a brows
 
     wait_stdin( [ 'i'm waiting for you to hit return' ] );
 
-    wait_x( [ [ $x ] [, "i'm waiting $x seconds" ] ] );
+    wait_x( [ [ int seconds_to_wait ] [, "i'm waiting $seconds_to_wait seconds" ] ] );
 
 =head1 INTERFACE
 
@@ -59,7 +59,7 @@ sub wait_stdin {
 
 =head2 wait_x( [ [ int seconds_to_wait ] [, str message ] ] ) : nothing
 
-wait for $seconds seconds before continuing a test.
+wait for $seconds_to_wait seconds before continuing a test.
 
 ignored if running under prove or make test.
 

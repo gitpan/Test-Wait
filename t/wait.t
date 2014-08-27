@@ -4,8 +4,6 @@
 use strict;
 use warnings;
 
-use lib qw( ./lib );
-
 use Test::More;
 
 =head1 NAME
